@@ -13,27 +13,27 @@ Fonctionnalités :
 ## Structure du projet
 ```
 wordle_solver/
-├── bin/                  # Exécutable compilé
+├── bin/                  
 ├── include/
-│   └── wordle_solver.h   # Déclarations des fonctions
+│   └── wordle_solver.h   
 ├── src/
-│   ├── main.c            # Interface utilisateur CLI
-│   └── wordle_solver.c   # Logique des filtres
+│   ├── main.c            
+│   └── wordle_solver.c   
 ├── ressource/
-│   └── bdd_wordle.txt    # Base de données des 2309 mots Wordle
-├── Makefile
+│   └── bdd_wordle.txt 
+|
 └── README.md
 ```
 ### Commandes générales
 
-| Commande        | Description                              |
-|-----------------|------------------------------------------|
-| `help`          | Afficher l'aide                          |
-| `list`          | Lister tous les mots restants            |
-| `suggest [n]`   | Afficher les n meilleures suggestions    |
-| `count`         | Nombre de mots restants                  |
-| `reset`         | Réinitialiser la liste complète          |
-| `quit`          | Quitter le programme                     |
+ Commande        | Description                              
+                 |
+ `help`          | Afficher l'aide                         
+ `list`          | Lister tous les mots restants            
+ `suggest [n]`   | Afficher les n meilleures suggestions    
+ `count`         | Nombre de mots restants                  
+ `reset`         | Réinitialiser la liste complète          
+ `quit`          | Quitter le programme                    
 
 ### Filtres disponibles
 
