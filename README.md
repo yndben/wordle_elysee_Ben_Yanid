@@ -26,14 +26,14 @@ wordle_solver/
 ```
 ### Commandes générales
 
- Commande        | Description                              
-                 |
- `help`          | Afficher l'aide                         
- `list`          | Lister tous les mots restants            
- `suggest [n]`   | Afficher les n meilleures suggestions    
- `count`         | Nombre de mots restants                  
- `reset`         | Réinitialiser la liste complète          
- `quit`          | Quitter le programme                    
+ | Commande        | Description                              |
+|-----------------|------------------------------------------|
+| `help`          | Afficher l'aide                          |
+| `list`          | Lister tous les mots restants            |
+| `suggest [n]`   | Afficher les n meilleures suggestions    |
+| `count`         | Nombre de mots restants                  |
+| `reset`         | Réinitialiser la liste complète          |
+| `quit`          | Quitter le programme                     |
 
 ### Filtres disponibles
 
